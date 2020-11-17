@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Calibração</title>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/webcam.js" async></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+  </head>
+  <body>
+    <div id="div1" class="div"><button id="snap">Capture</button></div>
+    <div id="div2" class="div"><button id="snap2">Capture</button></div>
+    <div id="div3" class="div"><button id="snap3">Capture</button></div>
+    <div id="div4" class="div"><button id="snap4">Capture</button></div>
+    <div id="div5" class="div"><button id="snap5">Capture</button></div>
+    <div id="div6" class="div"><button id="snap6">Capture</button></div>
+    <div id="div7" class="div"><button id="snap7">Capture</button></div>
+    <div id="div8" class="div"><button id="snap8">Capture</button></div>
+    <div class="container">
+      <p><span id="errorMsg"></span></p>
+      <div class="video-wrap" style="display: none">
+        <video id="video" playsinline autoplay></video>
+      </div>
+      <div class="controller" style="display: none">
+        <button id="stopcam">Stop</button>
+      </div>
+      <canvas id="canvas" width="640" height="480" style="display: none"></canvas>
+    </div>
+  </body>
+</html>

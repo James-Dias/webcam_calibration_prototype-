@@ -1,0 +1,12 @@
+html, body { height: 100%; padding: 0; margin: 0; }
+body {position:fixed; width: 100%;}
+.div { width: 25%; height: 50%; float: left; text-align: center; position: relative; display: flex;
+  align-items: center; justify-content: center;}
+#div1 { background: #DDD; }
+#div2 { background: #AAA; }
+#div3 { background: #777; }
+#div4 { background: #444; }
+#div5 { background: #441; }
+#div6 { background: #423; }
+#div7 { background: #714; }
+#div8 { background: #144; }
